@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	font-family: arial, sans-serif;	
+	margin-top: 30px;
+	background: #efefef url(../images/dark_wall.png);
+}
+
+#container
+{
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.hidden
+{
+	display: none;
+}
+
+#mainImg 
+{
+	position: relative;
+	margin: 0px auto;
+	width:900px;
+	height:386px;	
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	background-color:#2C2C2C;
+	padding: 10px;
+}
+
+#mainImg img {
+	position: absolute;
+	z-index: 0;	
+}
+
+#mainImg h2 {
+	position: absolute;
+	z-index: 1;
+	margin: 0;
+	top: 10px;
+	right: 10px;
+	font-weight:300;
+	padding: 5px 20px 5px 20px;
+	color: black;
+	background:#7D7D7D;
+	border-radius: 10px;
+}
+
+#mainImg p {
+	position: absolute;
+	width:500px;
+	z-index: 1;
+	margin: 0;
+	top: 60px;
+	right: 10px;
+	font-weight:300;
+	padding: 5px 20px 5px 20px;
+	color: black;
+	background:#7D7D7D;
+	border-radius: 10px;
+}
+
+#links 
+{
+	margin: 45px auto 0px;	
+	height: 100px;
+}
+
+#links ul 
+{
+	margin: 0 auto;
+	width: 820px;
+	padding: 0;
+	list-style-type: none;	
+	height: 50px;
+	text-align: center;
+}
+
+#links ul li 
+{
+	display: inline;
+	margin-left: 10px;
+}
+
+#links ul li a {
+	color:#EBEBEB;
+	text-decoration: none;
+	padding: 5px 15px 5px 15px;
+	transition: all 0.5s ease;
+	border-radius: 10px;
+}
+
+#links ul li a:hover {
+	color:#000;
+	background: #C6C6C6;	
+}
